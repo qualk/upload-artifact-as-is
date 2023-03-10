@@ -28,7 +28,7 @@
     "@actions/core": "^1.9.1",
     "@actions/glob": "^0.1.0",
     "@actions/io": "^1.0.2",
-    "@types/node": "^13.11.1",
+    "@types/node": "^18.15.0",
     "@zeit/ncc": "^0.22.1",
     "glob": "^7.1.6",
     "typescript": "^3.8.3"
