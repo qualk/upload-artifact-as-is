@@ -13,7 +13,7 @@ This GitHub Action uploads build artifacts, but unlike the original [actions/upl
 ## Example usage
 
 ```yaml
-    - uses: kittaakos/upload-artifact-as-is@v1
+    - uses: qualk/upload-artifact-as-is@v0
     with:
         path: path/to/artifactDir/ # or path/to/artifactDir or path/to/artifactFile or path/to/**/wildcard/*
 ```
@@ -28,7 +28,7 @@ In action:
       - run: echo hello1 > path/to/artifact/world1.txt
       - run: echo hello2 > path/to/artifact/world2.txt
 
-      - uses: kittaakos/upload-artifact-as-is@v0
+      - uses: qualk/upload-artifact-as-is@v0
         with:
           path: path/to/artifact/
 ```
