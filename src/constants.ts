@@ -1,3 +1,3 @@
 export enum Inputs {
-    Path = 'path'
+  Path = "path",
 }
