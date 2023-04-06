@@ -8,6 +8,7 @@
     "noImplicitAny": false,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
     "esModuleInterop": true,
     "declaration": false,
     "sourceMap": true,
