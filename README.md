@@ -19,18 +19,19 @@ This GitHub Action uploads build artifacts, but unlike the original [actions/upl
 ```
 
 In action:
+
 ```yaml
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
+steps:
+  - name: Checkout
+    uses: actions/checkout@master
 
-      - run: mkdir -p path/to/artifact
-      - run: echo hello1 > path/to/artifact/world1.txt
-      - run: echo hello2 > path/to/artifact/world2.txt
+  - run: mkdir -p path/to/artifact
+  - run: echo hello1 > path/to/artifact/world1.txt
+  - run: echo hello2 > path/to/artifact/world2.txt
 
-      - uses: qualk/upload-artifact-as-is@v0
-        with:
-          path: path/to/artifact/
+  - uses: qualk/upload-artifact-as-is@v0
+    with:
+      path: path/to/artifact/
 ```
 
 Output:

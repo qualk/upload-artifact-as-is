@@ -12,11 +12,7 @@
     "esModuleInterop": true,
     "declaration": false,
     "sourceMap": true,
-    "lib": [
-      "es6"
-    ]
+    "lib": ["es6"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
