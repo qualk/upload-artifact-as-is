@@ -29,7 +29,7 @@
     "@actions/glob": "^0.1.0",
     "@actions/io": "^1.1.2",
     "@types/node": "^18.15.1",
-    "@zeit/ncc": "^0.22.1",
+    "@zeit/ncc": "^0.22.3",
     "glob": "^9.2.1",
     "typescript": "^5.0.3"
   }
