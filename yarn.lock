@@ -13,7 +13,7 @@
     tmp "^0.1.0"
     tmp-promise "^2.0.2"
 
-"@actions/core@^1.10.0", "@actions/core@^1.2.0", "@actions/core@^1.2.1":
+"@actions/core@^1.10.0", "@actions/core@^1.2.1", "@actions/core@^1.9.1":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.10.0.tgz#44551c3c71163949a2f06e94d9ca2157a0cfac4f"
   integrity sha512-2aZDDa3zrrZbP5ZYg159sNoLRb61nQ7awl5pSvIq5Qpj81vwDzdMRKzkWJGJuwVvWpvZKx7vspJALyvaaIQyug==
@@ -21,12 +21,12 @@
     "@actions/http-client" "^2.0.1"
     uuid "^8.3.2"
 
-"@actions/glob@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@actions/glob/-/glob-0.1.0.tgz#969ceda7e089c39343bca3306329f41799732e40"
-  integrity sha512-lx8SzyQ2FE9+UUvjqY1f28QbTJv+w8qP7kHHbfQRhphrlcx0Mdmm1tZdGJzfxv1jxREa/sLW4Oy8CbGQKCJySA==
+"@actions/glob@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@actions/glob/-/glob-0.4.0.tgz#b169b1c1c72f41e5df7b3d9349539c88fa68403c"
+  integrity sha512-+eKIGFhsFa4EBwaf/GMyzCdWrXWymGXfFmZU3FHQvYS8mPcHtTtZONbkcqqUMzw9mJ/pImEBFET1JNifhqGsAQ==
   dependencies:
-    "@actions/core" "^1.2.0"
+    "@actions/core" "^1.9.1"
     minimatch "^3.0.4"
 
 "@actions/http-client@^1.0.7":
